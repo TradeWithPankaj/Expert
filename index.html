@@ -154,11 +154,15 @@
   </div>
 </div>
 
-     <script>
-        function customEvent() {
-            fbq('track', 'Subscribe');
-        }
-    </script>
+<script>
+    function customEvent() {
+        fbq('track', 'Subscribe', {
+            value: 0.00,
+            currency: 'INR'
+        });
+    }
+</script>
+
 
 </body>
 </html>
